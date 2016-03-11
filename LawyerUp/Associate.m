@@ -10,4 +10,14 @@
 
 @implementation Associate
 
+-(void)addClientToClientList:(Client *)client forLawyer:(Lawyer *)lawyer {
+	[lawyer.clientList addObject:client];
+}
+
+-(int)payableAmountForClient:(Client *)client forLawyer:(Lawyer *)lawyer {
+	if ([client.problem length] <= 10) {
+		int invoice = [pay]
+	}
+}
+
 @end

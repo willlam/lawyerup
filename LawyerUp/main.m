@@ -26,6 +26,7 @@ int main(int argc, const char * argv[]) {
 		Client *client2 = [[Client alloc] initWithName:@"Saul Paul" problem:@"Libel" andSpeciality:corporateLaw];
 		
 		
+		
 	}
     return 0;
 }
